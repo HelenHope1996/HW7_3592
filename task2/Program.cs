@@ -75,7 +75,7 @@ int colums = Convert.ToInt32(Console.ReadLine());
 
  if (rows < 0 && rows > matrix.GetLength(0) - 1 && colums < 0 && colums > matrix.GetLength(1) - 1)
  {
-    Console.WriteLine("Такого числа нет");
+    Console.WriteLine($"{matrix[rows, colums]} - такого числа нет");
  }
  else
  {
